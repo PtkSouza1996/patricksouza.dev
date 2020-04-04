@@ -1,8 +1,4 @@
-import {
-  GithubFilled,
-  LinkedinFiGithubFilled,
-  MailFilled,
-} from '@ant-design/icons';
+import { GithubFilled, LinkedinFilled, MailFilled } from '@ant-design/icons';
 
 export default [
   {
@@ -10,11 +6,11 @@ export default [
     url: 'https://www.github.com/PtkSouza1996',
   },
   {
-    icon: LinkedinFiGithubFilled,
+    icon: LinkedinFilled,
     url: 'https://www.linkedin.com/in/dev-patrick-souza',
   },
   {
     icon: MailFilled,
-    url: 'ptk.souza10@gmail.com',
+    url: 'mailto:ptk.souza10@gmail.com',
   },
 ];

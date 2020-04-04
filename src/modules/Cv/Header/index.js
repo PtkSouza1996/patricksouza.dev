@@ -8,7 +8,7 @@ export default function Header() {
     <header className="header-container">
       <div className="icon-pdf">
         <a
-          href="http://localhost:8000/cv.pdf"
+          href="https://patricksouza.dev/cv.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -17,8 +17,8 @@ export default function Header() {
       </div>
       <section>
         <h1>
-          <span>Patrick Souza</span>
-          <span>Sênior software engineer</span>
+          <strong>Patrick Souza</strong>
+          <strong>Sênior software engineer</strong>
         </h1>
         <Avatar size={70} />
         <ul className="contact">
@@ -34,7 +34,7 @@ export default function Header() {
             </a>
           </li>
           <li>
-            Gihub:{' '}
+            Github:{' '}
             <a
               href="https://github.com/PtkSouza1996"
               target="_blank"

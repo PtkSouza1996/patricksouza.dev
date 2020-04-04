@@ -15,8 +15,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px 24px 24px 24px;
-  margin: 12px;
 }
 
 .container-topskills section ul {
@@ -49,4 +47,17 @@
 .container-topskills section ul li a img {
   width: 36px;
   margin-bottom: auto;
+}
+
+@media (max-width: 768px) {
+  .container-topskills section ul {
+    justify-content: space-around;
+  }
+  .container-topskills section ul li {
+    max-width: 50px;
+    white-space: nowrap;
+  }
+  .container-topskills section {
+    min-width: 100%;
+  }
 }

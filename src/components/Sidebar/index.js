@@ -17,11 +17,11 @@ function Sidebar() {
         </span>
       </div>
       <Divider />
-      <ul className="menu">
+      {/* <ul className="menu">
         <li>Currículo</li>
         <li>Contato</li>
       </ul>
-      <Divider />
+      <Divider /> */}
       <SocialMedia />
     </section>
   );

@@ -24,7 +24,7 @@ export default {
     displayInTopList: true,
   },
   'styled-components': {
-    name: 'styled-components',
+    name: 'Styled-components',
     logo: 'styled-components.svg',
     website: 'https://styled-components.com/',
     displayInTopList: true,

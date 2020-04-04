@@ -16,10 +16,16 @@
 .container-skills section h4 {
   text-align: center;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 2;
 }
 
 .list-skills {
   display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .container-skills {
+    flex-direction: column;
+  }
 }

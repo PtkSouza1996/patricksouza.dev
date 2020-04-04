@@ -37,7 +37,6 @@
   flex-direction: column;
   text-align: end;
   font-size: 15px;
-  font-weight: 600;
   line-height: 1.5;
 }
 
@@ -47,11 +46,44 @@
 }
 
 .header-container section .contact li a {
-  color: rgba(22, 33, 52, 0.9);
+  color: rgba(22, 33, 52, 0.75);
   text-decoration: none;
   transition: 0.2s;
 }
 
 .header-container section .contact li a:hover {
   filter: opacity(0.5);
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-wrap: wrap;
+  }
+  .header-container .icon-pdf {
+    justify-content: flex-start;
+    min-width: 100%;
+  }
+  .header-container section {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .header-container section h1 {
+    min-width: 50%;
+  }
+  .header-container section .avatar {
+    width: 48px;
+    height: 48px;
+  }
+  .header-container section .contact {
+    min-width: 100%;
+  }
+  .header-container section .contact li {
+    text-align: center;
+  }
+}
+
+@media print {
+  .header-container .icon-pdf {
+    display: none;
+  }
 }

@@ -5,4 +5,7 @@
 .container main {
   width: 100%;
   flex: 1;
+  max-height: 100vh;
+  overflow: scroll;
+  scroll-behavior: smooth;
 }

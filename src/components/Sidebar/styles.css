@@ -48,3 +48,19 @@
 .container-sidebar ul.menu li:hover {
   filter: brightness(0.5);
 }
+
+@media (max-width: 1250px) {
+  .container-sidebar {
+    max-width: 200px;
+  }
+  .container-sidebar .avatar {
+    width: 72px;
+    height: 72px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container-sidebar {
+    display: none;
+  }
+}
