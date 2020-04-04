@@ -1,0 +1,29 @@
+.container-tag {
+  display: inline-block;
+  width: fit-content;
+  height: auto;
+  margin: 0 8px 8px 0;
+  padding: 0 7px;
+  font-size: 12px;
+  line-height: 20px;
+  white-space: nowrap;
+  color: rgba(22, 33, 53, 0.75);
+  border: 1px solid rgba(50, 100, 180, 1);
+  border-radius: 2px;
+  cursor: default;
+  opacity: 1;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.dark {
+  background: rgba(50, 100, 180, 0.8);
+}
+
+.light {
+  background: rgba(50, 100, 180, 0.5);
+}
+
+.container-tag:hover {
+  filter: brightness(0.8);
+}

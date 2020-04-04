@@ -11,6 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
+  color: rgba(22, 33, 53, 0.75);
 
   background: rgb(234, 236, 237);
   background: linear-gradient(

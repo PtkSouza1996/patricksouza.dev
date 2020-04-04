@@ -1,0 +1,57 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container .icon-pdf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62px;
+}
+.header-container svg {
+  width: 36px;
+  height: 36px;
+  color: #751b1a;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.header-container svg:hover {
+  filter: brightness(0.8);
+}
+
+.header-container section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.header-container section .avatar {
+  margin: 24px;
+}
+
+.header-container section h1 {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.header-container section .contact li {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.header-container section .contact li a {
+  color: rgba(22, 33, 52, 0.9);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.header-container section .contact li a:hover {
+  filter: opacity(0.5);
+}
