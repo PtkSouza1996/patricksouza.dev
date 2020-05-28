@@ -1,4 +1,23 @@
 export default [
+  company: {
+      name: 'Eduzz',
+      logo: '',
+      period: 'Março 2020 - Atual',
+    },
+    projects: [
+      {
+        name: 'Checkout Sun',
+        logo: '',
+        role: 'Software Engineer',
+        description: 'Desenvolvimento do novo checkout.',
+        stack: {
+          me: ['React JS', 'antd', 'Rxjs', 'Typescript'],
+          all: ['AWS', 'NodeJs', 'TypeORM', 'PHP', 'SQL Server'],
+        },
+        achievements: [],
+      },
+    ],
+  },
   {
     company: {
       name: 'Hub Fintech',
