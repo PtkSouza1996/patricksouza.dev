@@ -1,13 +1,14 @@
 export default [
-  company: {
+  {
+    company: {
       name: 'Eduzz',
-      logo: '',
+      logo: 'eduzz.svg',
       period: 'Março 2020 - Atual',
     },
     projects: [
       {
         name: 'Checkout Sun',
-        logo: '',
+        logo: 'checkout-sun.png',
         role: 'Software Engineer',
         description: 'Desenvolvimento do novo checkout.',
         stack: {

@@ -7,8 +7,8 @@
   font-size: 12px;
   line-height: 20px;
   white-space: nowrap;
-  color: rgba(22, 33, 53, 0.75);
-  border: 1px solid rgba(50, 100, 180, 1);
+  color: rgba(255, 252, 252, 1);
+  border: 1px solid rgba(255, 252, 252, 1);
   border-radius: 2px;
   cursor: default;
   opacity: 1;
@@ -18,14 +18,14 @@
 
 .dark {
   background: rgba(50, 100, 180, 0.8);
-  border: 1px solid rgba(50, 100, 180, 1);
+  border: 1px solid rgba(255, 252, 252, 1);
 }
 
 .light {
   background: rgba(50, 100, 180, 0.5);
-  border: 1px solid rgba(50, 100, 180, 0.7);
+  border: 1px solid rgba(255, 252, 252, 0.7);
 }
 
 .container-tag:hover {
-  filter: brightness(0.8);
+  filter: brightness(0.92);
 }
