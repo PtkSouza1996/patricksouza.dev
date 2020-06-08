@@ -9,3 +9,9 @@
   overflow: scroll;
   scroll-behavior: smooth;
 }
+
+@media print {
+  ::-webkit-scrollbar {
+    width: 0 !important;
+  }
+}

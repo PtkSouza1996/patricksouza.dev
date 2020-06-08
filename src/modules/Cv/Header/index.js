@@ -6,7 +6,7 @@ import Avatar from '../../../components/Avatar';
 export default function Header() {
   return (
     <header className="header-container">
-      <div className="icon-pdf">
+      {/* <div className="icon-pdf">
         <a
           href="https://patricksouza.dev/cv.pdf"
           target="_blank"
@@ -14,7 +14,7 @@ export default function Header() {
         >
           <FilePdfFilled />
         </a>
-      </div>
+      </div> */}
       <section>
         <h1>
           <strong>Patrick Souza</strong>
