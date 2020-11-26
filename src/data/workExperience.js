@@ -13,7 +13,15 @@ export default [
         description: 'Desenvolvimento do novo checkout.',
         stack: {
           me: ['React JS', 'antd', 'Rxjs', 'Typescript'],
-          all: ['AWS', 'NodeJs', 'TypeORM', 'PHP', 'SQL Server'],
+          all: [
+            'AWS',
+            'NodeJs',
+            'TypeORM',
+            'PHP',
+            'SQL Server',
+            'Redis',
+            'RabbitMQ',
+          ],
         },
         achievements: [],
       },
@@ -107,7 +115,15 @@ export default [
         role: 'Fullstack Developer',
         description: 'Manutenção de aplicações legadas.',
         stack: {
-          me: ['React JS', 'ExpressJs', 'React native', 'Angular', '.NET Core'],
+          me: [
+            '.Net Core',
+            'NodeJs',
+            'PostgresSQL',
+            'React JS',
+            'ExpressJs',
+            'React native',
+            'Angular',
+          ],
           all: ['AWS', 'Jenkins'],
         },
         achievements: ['Correção de bugs'],
@@ -156,11 +172,11 @@ export default [
           'Extensões/Customizações de funcionalidades do software técnico e do ERP da empresa.',
         stack: {
           me: [
-            'Angular Material Design',
-            'Angular',
+            'EF Core',
             '.NET Core',
             'SQL Server',
-            'EF Core',
+            'Angular Material Design',
+            'Angular',
           ],
           all: ['Azure', 'Swift', 'AR Kit'],
         },

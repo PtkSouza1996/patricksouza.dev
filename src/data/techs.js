@@ -1,4 +1,12 @@
 export default {
+  netCore: {
+    name: '.Net Core',
+    logo:
+      'https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg',
+    website:
+      'https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core',
+    displayInTopList: true,
+  },
   react: {
     name: 'React',
     logo: 'react.svg',
@@ -21,25 +29,25 @@ export default {
     name: 'Ant Design',
     logo: 'ant-design.svg',
     website: 'https://ant.design/',
-    displayInTopList: true,
+    displayInTopList: false,
   },
   'styled-components': {
     name: 'Styled-components',
     logo: 'styled-components.svg',
     website: 'https://styled-components.com/',
-    displayInTopList: true,
+    displayInTopList: false,
   },
   gatsby: {
     name: 'Gatsby',
     logo: 'gatsby.svg',
     website: 'https://www.gatsbyjs.org/',
-    displayInTopList: true,
+    displayInTopList: false,
   },
   electron: {
     name: 'Electron',
     logo: 'electron.svg',
     website: 'https://www.electronjs.org/',
-    displayInTopList: true,
+    displayInTopList: false,
   },
   nodejs: {
     name: 'nodeJs',
@@ -57,7 +65,7 @@ export default {
     name: 'Insomnia',
     logo: 'insomnia.svg',
     website: 'https://insomnia.rest/',
-    displayInTopList: true,
+    displayInTopList: false,
   },
   postgresql: {
     name: 'PostgreSQL',
