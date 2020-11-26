@@ -8,14 +8,27 @@ export default function TopSkills() {
       <h3>Minhas Tecnologias Favoritas</h3>
       <section>
         <ul>
-          {Object.values(techs).map((tech) => (
-            <li key={tech.name}>
-              <a href={tech.website} target="_blank" rel="noopener noreferrer">
-                <img src={`./tech/${tech.logo}`} alt={tech.name} />
-                <span>{tech.name}</span>
-              </a>
-            </li>
-          ))}
+          {Object.values(techs).map((tech) =>
+            tech.displayInTopList ? (
+              <li key={tech.name}>
+                <a
+                  href={tech.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={
+                      tech.logo.startsWith('http')
+                        ? tech.logo
+                        : `./tech/${tech.logo}`
+                    }
+                    alt={tech.name}
+                  />
+                  <span>{tech.name}</span>
+                </a>
+              </li>
+            ) : null
+          )}
         </ul>
       </section>
     </div>

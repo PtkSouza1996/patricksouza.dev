@@ -12,16 +12,8 @@ export default [
         role: 'Software Engineer',
         description: 'Desenvolvimento do novo checkout.',
         stack: {
-          me: ['React JS', 'antd', 'Rxjs', 'Typescript'],
-          all: [
-            'AWS',
-            'NodeJs',
-            'TypeORM',
-            'PHP',
-            'SQL Server',
-            'Redis',
-            'RabbitMQ',
-          ],
+          me: ['React JS', 'antd', 'Rxjs', 'Typescript', 'AWS', 'NodeJs'],
+          all: ['TypeORM', 'Redis', 'RabbitMQ', 'PHP', 'SQL Server'],
         },
         achievements: [],
       },
