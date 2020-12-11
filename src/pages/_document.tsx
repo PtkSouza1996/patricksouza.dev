@@ -8,7 +8,7 @@ export default class _Document extends Document {
         <Head>
           <title>Patrick Souza - Dev</title>
         </Head>
-        <body className="h-full min-w-screen bg-gray-100 antialiased">
+        <body className="h-full bg-gray-100 antialiased">
           <Main />
           <NextScript />
         </body>
