@@ -1,7 +1,8 @@
 import React from 'react';
+import WorkExperiences from '../Modules/WorkExperiences';
 
 const ExperienciesPage: React.FC = () => {
-  return <div>ExperienciesPage</div>;
+  return <WorkExperiences />;
 };
 
 export default ExperienciesPage;

@@ -10,8 +10,9 @@ const About: React.FC = () => {
     includeSeconds: false,
     locale,
   });
+
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col" data-aos="fade">
       <h2 className="text-2xl text-gray-600 text-decoration">Sobre mim</h2>
       <p className="flex text-gray-600">
         Olá, meu nome é Patrick souza. Sou um engenheiro de software{' '}

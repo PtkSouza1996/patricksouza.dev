@@ -16,9 +16,11 @@ const Menu: React.FC = () => {
               Experiências
             </li>
           </Link>
-          <li className="border-b-2 border-white transition duration-300 hover:border-blue-600 pt-1 pb-2 px-4">
-            Blog
-          </li>
+          <Link href="/blog">
+            <li className="border-b-2 border-white transition duration-300 hover:border-blue-600 pt-1 pb-2 px-4">
+              Blog
+            </li>
+          </Link>
           <li className="border-b-2 border-white transition duration-300 hover:border-blue-600 pt-1 pb-2 px-4">
             Contato
           </li>
